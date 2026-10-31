@@ -1,0 +1,15 @@
+
+import java.applet.*;
+import java.awt.*;
+
+public class Shapes extends Applet {
+    public void paint(Graphics g) {
+        g.drawRect(50, 50, 100, 60);
+        g.drawOval(200, 50, 80, 80);
+        g.drawLine(50, 160, 150, 160);
+
+        g.drawLine(200, 160, 250, 100);
+        g.drawLine(250, 100, 300, 160);
+        g.drawLine(200, 160, 300, 160);
+    }
+}
