@@ -1,0 +1,18 @@
+
+import java.awt.*;
+
+class Flow {
+    public static void main(String[] args) {
+        Frame f = new Frame("Flow Layout");
+
+        f.setLayout(new FlowLayout());
+
+        f.add(new Button("One"));
+        f.add(new Button("Two"));
+        f.add(new Button("Three"));
+        f.add(new Button("Four"));
+
+        f.setSize(300, 200);
+        f.setVisible(true);
+    }
+}
