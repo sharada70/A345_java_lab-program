@@ -1,0 +1,18 @@
+
+import java.applet.*;
+import java.awt.*;
+
+public class House extends Applet {
+    public void paint(Graphics g) {
+        g.setColor(Color.RED);
+        g.drawLine(100, 100, 200, 30);
+        g.drawLine(200, 30, 300, 100);
+
+        g.setColor(Color.BLACK);
+        g.drawRect(100, 100, 200, 150);
+
+        g.drawRect(180, 170, 40, 80);
+        g.drawRect(120, 120, 40, 40);
+        g.drawRect(240, 120, 40, 40);
+    }
+}
